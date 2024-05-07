@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8080;
 const apiKey = 'j86bwkwo-8hako-12C';
 
 app.get('/', (_, res) => {
-    res.send('Hello world');
+    res.send('hello what can provide for you?');
 });
 
 app.get('/ai', (req, res) => {
